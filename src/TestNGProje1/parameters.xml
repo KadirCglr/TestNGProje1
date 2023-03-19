@@ -1,0 +1,14 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+
+    <test name="TestNGProje_1">
+        <parameter name="mesaj" value="kcaglar14@gmail.com"></parameter>
+        <parameter name="mesaj2" value="123456"></parameter>
+        <parameter name="mesaj3" value="Adobe Photoshop CS4"></parameter>
+        <classes>
+            <class name="TestNGProje1.P01"></class>
+        </classes>
+    </test>
+</suite>
